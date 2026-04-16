@@ -11,11 +11,10 @@ Run the local dev server:
 npm run dev
 ```
 
-Open http://localhost:3000 to view the site.
+Open http://localhost:3000/dashboardSpec to view the site.
 
 ## Content structure
 
-- `content/index.mdx` renders the API introduction page.
 - `public/dashboard-openapi.json` is the source OpenAPI spec.
 - `public/dashboardSpec.html` is generated automatically for the `/dashboardSpec` route.
 - `scripts/redoc-template.hbs` defines the static reference page shell.
